@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var link_list_1 = require("./link-list");
+var list = new link_list_1.LinkedList();
+list.insertHead(10);
+list.insertHead(20);
+list.insertTail(30);
+list.insertMiddle(40, 1);
+list.insertMiddle(50, 1);
+list.getLength();
+list.printList();
